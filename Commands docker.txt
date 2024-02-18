@@ -1,0 +1,7 @@
+docker run -d -p 2181:2181 ubuntu/zookeeper:edge
+
+docker run -d --name kafka-container -e TZ=UTC -p 9092:9092 -e ZOOKEEPER_HOST=host.docker.internal ubuntu/kafka:latest
+
+
+or go
+sh bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic topicKafka --partitions 3 --replication-factor 1
