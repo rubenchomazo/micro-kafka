@@ -1,5 +1,7 @@
 # Micro Spring Kafka
 
+![header](img/springkafka.png)
+
 Spring Kafka integration
 
 ## Tech Stack
@@ -12,9 +14,9 @@ Spring Kafka integration
 
 **Kafka:** 3.6.1
 
-## 1. Installation
+# 1. Installation
 
-# 1.1 Configure Kafka server
+## 1.1 Configure Kafka server
 
 **Download Kafka server: ** https://kafka.apache.org/downloads
 
@@ -42,7 +44,7 @@ Spring Kafka integration
 
 ![topic](img/topic.png)
 
-# 1.2 Configure Project
+## 1.2 Configure Project
 
 Install ms-spring-sec with maven
 
